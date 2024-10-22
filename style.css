@@ -23,11 +23,18 @@ body {
     background-color: #fafafa;
 
     height: 20%;
-
+    box-shadow: 0 8px 8px rgba(83, 83, 83, 0.2);
+    margin-bottom: 8px;
 }
+
+.search {
+    padding: 64px;
+    padding-top: 32px;
+}
+
 .content {
     display: flex;
-    background-color: #e5e5e5;
+    background-color: #f3f3f3;
 
     height: 80%;
 }
@@ -67,11 +74,13 @@ body {
 
 .proj, .announcements, .trending {
     border-radius: 12px;
+    background-color: #fafafa;
+    box-shadow: 2px 4px 4px rgba(83, 83, 83, 0.2);
 }
 
 .proj {
     height: 100%;
-    background-color: #fafafa;
+    
 }
 
 .announcements, .trending {
@@ -81,13 +90,13 @@ body {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 
-    background-color: #fafafa;
+    
 }
 
 .trending {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    background-color: #fafafa;
+    
 }
 
 #trending {
@@ -110,6 +119,7 @@ li {
     font-weight: 500;
 
     margin: 16px 0;
+    color: #fafafa;
     
 }
 
@@ -128,4 +138,10 @@ li {
 #title {
     font-size: 36px;
     font-weight: 600;
+}
+
+img {
+    width: 36px;
+    height: 36px;
+    filter: invert(99%) sepia(92%) saturate(1%) hue-rotate(223deg) brightness(107%) contrast(96%);
 }
