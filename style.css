@@ -85,6 +85,10 @@ body {
     
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
+
+    border-left: solid;
+    border-color: #fde047;
+    border-width: 16px;
 }
 
 .proj span {
@@ -153,7 +157,8 @@ li {
 }
 
 .dash {
-    background-color: #0284c7;
+    /* lighter option: #0284c7 */
+    background-color: #0369a1;
     width: 20%;
     height: 100%;
 
